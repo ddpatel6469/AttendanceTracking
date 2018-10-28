@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_toolbar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="40dp"
+    android:paddingRight="24dp">
+
+    <!--<include-->
+        <!--android:id="@id/toolbar"-->
+        <!--layout="@layout/toolbar"/>-->
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/attendance" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp"
+        android:text="Teacher Side"
+        android:onClick="button1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Side"
+        android:onClick="button2"/>
+
+
+    <!--<TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp"
+        android:text="Teacher Side"/>-->
+
+        <!--android:clickable="true"
+        android:autoLink="all"
+        android:text="http://www.google.com"/>-->
+        <!--android:linksClickable="true"-->
+        <!--android:text="@string/agree_terms_privacy"/>-->
+
+    <!--<TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Side" />-->
+</LinearLayout>
